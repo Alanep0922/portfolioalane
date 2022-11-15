@@ -170,7 +170,8 @@ ul li {
 .cozinha,
 .clinica,
 .boletim,
-.reprogramaflix {
+.reprogramaflix,
+.portfolio {
     background: rgb(173, 45, 66);
     margin-right: 60%;
     padding: 10px 10px;
