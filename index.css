@@ -1,0 +1,201 @@
+body {
+    background: linear-gradient(white, #ecc5f8, #ecd2f4 50%, white, #ecc5f8);
+}
+
+header {
+    padding: 20px 0;
+    display: flex;
+}
+
+.logoAlane {
+    width: 450px;
+    height: 400px;
+    margin-top: -70px;
+}
+
+.logoGithub {
+    margin-left: 550px;
+    margin-top: 85px;
+    width: 50px;
+    height: 50px;
+}
+
+.logoLinkedin {
+    margin-left: 30px;
+    margin-top: 65px;
+    width: 90px;
+    height: 90px;
+}
+
+.logoCurriculo {
+    margin-left: 30px;
+    margin-top: 75px;
+    width: 70px;
+    height: 70px;
+}
+
+.logoEmail {
+    margin-left: 30px;
+    margin-top: 75px;
+    width: 70px;
+    height: 70px;
+}
+
+.tituloMain {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 500px;
+    margin-top: -50px;
+}
+
+.sobreMim {
+    display: flex;
+}
+
+.tituloSobreMim,
+.tituloMapa,
+.tituloLinhadoTempo {
+    margin-left: 600px;
+    font-size: 25px;
+}
+
+.fotoAlane {
+    width: 300px;
+    height: 300px;
+    border-radius: 250px;
+    margin-left: 200px;
+}
+
+.textoSobreMim {
+    margin-top: 60px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.textoSobreMim {
+    text-align: justify;
+}
+
+ul li {
+    list-style: none;
+}
+
+.linha-do-tempo {
+    position: relative;
+    max-width: 1024px;
+    height: auto;
+    padding: 0px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.marcador {
+    width: 50%;
+    float: left;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border-right: 2px dashed rgb(179, 139, 146);
+    box-sizing: border-box;
+}
+
+.ano {
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #f0f0f0;
+    background-color: rgb(173, 45, 66);
+    background-image: -webkit-linear-gradient(140deg,
+            rgba(255, 255, 255, .2) 50%,
+            transparent 50%,
+            transparent);
+    text-align: center;
+    margin-top: 7%;
+    margin: 1% auto;
+    clear: both;
+}
+
+.item {
+    width: 44%;
+    margin: 4% 0.5%;
+    padding: 1%;
+    float: right;
+}
+
+.item:nth-of-type(2n) {
+    float: left;
+    margin: 4% 0.5%;
+    padding: 1%;
+}
+
+.item p {
+    color: rgb(66, 65, 60);
+    text-align: center;
+}
+
+.item p a {
+    color: #e44b4b;
+    text-align: center;
+}
+
+.logoReprograma {
+    margin-top: -30px;
+    width: 250px;
+}
+
+.logoEmpreender {
+    margin-top: -30px;
+    margin-left: 120px;
+    width: 150px;
+}
+
+.fotoBB {
+    margin-top: -30px;
+    margin-left: 120px;
+    width: 150px;
+}
+
+.mapaAlane {
+    margin-left: 480px;
+}
+
+.projetos {
+    margin-left: 35%;
+}
+
+.tituloprojetos {
+    margin-left: 59spx;
+}
+
+.cozinha,
+.clinica,
+.boletim,
+.reprogramaflix {
+    background: rgb(173, 45, 66);
+    margin-right: 60%;
+    padding: 10px 10px;
+}
+
+button {
+    width: 40%;
+    padding: 8px 0;
+    margin-bottom: 10px;
+    margin-left: 115px;
+    background: #ecc5f8;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    transform: scale(1.2);
+}
+
+.titulosprojetos {
+    text-align: center;
+    font-size: 23px;
+}
