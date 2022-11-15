@@ -171,7 +171,8 @@ ul li {
 .clinica,
 .boletim,
 .reprogramaflix,
-.portfolio {
+.portfolio,
+.desafio {
     background: rgb(173, 45, 66);
     margin-right: 60%;
     padding: 10px 10px;
